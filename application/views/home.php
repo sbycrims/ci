@@ -47,23 +47,9 @@
 
             </div>
         </div>
-        <script>
-            $(function (){
-                /*
-               $('form').on('change blur' ,'.checkField', function(){
-                   if ($(this).val()) {
-                       $(this).next('span').html('');
-                    }
-                    else{
-                       $(this).next('span').html('required'); 
-                    }
-               });              
-               */
-              loginForm.onsubmit= function(e){
-                  e.preventDefault();
-                  console.log('submit');
-              }
-            }); // end jQuery
-        </script>
+
+        <script src="<?= base_url('public/js/main.js')?>"></script>
+        <script src="<?= base_url('public/js/access.js')?>"></script>
+        
     </body>
 </html>
