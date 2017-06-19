@@ -29,8 +29,9 @@ class Home extends CI_Controller {
 	public function login()
 	{
 		//$this->util_lib->ajaxOnly();
-		echo 'test';
+		echo 'test2';
 	}
+
 
 	
 	
